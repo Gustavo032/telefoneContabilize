@@ -16,1833 +16,374 @@ import { ColorModeSwitcher } from '../../ColorModeSwitcher';
   }
 
   const dados = [
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "02\/01\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "03\/01\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "04\/01\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "05\/01\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "06\/01\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "07\/01\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "08\/01\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "09\/01\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "10\/01\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "11\/01\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "12\/01\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "13\/01\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "14\/01\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "15\/01\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "16\/01\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "17\/01\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "18\/01\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "19\/01\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "20\/01\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "21\/01\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "22\/01\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "23\/01\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "24\/01\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "25\/01\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "26\/01\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "27\/01\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "28\/01\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "29\/01\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "30\/01\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "31\/01\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "01\/02\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "02\/02\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "03\/02\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "04\/02\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "05\/02\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "06\/02\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "07\/02\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "08\/02\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "09\/02\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "10\/02\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "11\/02\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "12\/02\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "13\/02\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "14\/02\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "15\/02\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "16\/02\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "17\/02\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "18\/02\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "19\/02\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "20\/02\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "21\/02\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "22\/02\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "23\/02\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "24\/02\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "25\/02\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "26\/02\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "27\/02\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "28\/02\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "01\/03\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "02\/03\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "03\/03\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "04\/03\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "05\/03\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "06\/03\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "07\/03\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "08\/03\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "09\/03\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "10\/03\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "11\/03\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "12\/03\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "13\/03\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "14\/03\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "15\/03\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "16\/03\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "17\/03\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "18\/03\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "19\/03\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "20\/03\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "21\/03\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "22\/03\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "23\/03\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "24\/03\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "25\/03\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "26\/03\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "27\/03\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "28\/03\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "29\/03\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "30\/03\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "31\/03\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "01\/04\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "02\/04\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "03\/04\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "04\/04\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "05\/04\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "06\/04\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "07\/04\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "08\/04\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "09\/04\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "10\/04\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "11\/04\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "12\/04\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "13\/04\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "14\/04\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "15\/04\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "16\/04\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "17\/04\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "18\/04\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "19\/04\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "20\/04\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "21\/04\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "22\/04\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "23\/04\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "24\/04\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "25\/04\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "26\/04\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "27\/04\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "28\/04\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "29\/04\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "30\/04\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "01\/05\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "02\/05\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "03\/05\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "04\/05\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "05\/05\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "06\/05\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "07\/05\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "08\/05\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "09\/05\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "10\/05\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "11\/05\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "12\/05\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "13\/05\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "14\/05\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "15\/05\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "16\/05\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "17\/05\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "18\/05\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "19\/05\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "20\/05\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "21\/05\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "22\/05\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "23\/05\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "24\/05\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "25\/05\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "26\/05\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "27\/05\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "28\/05\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "29\/05\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "30\/05\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "31\/05\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "01\/06\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "02\/06\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "03\/06\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "04\/06\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "05\/06\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "06\/06\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "07\/06\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "08\/06\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "09\/06\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "10\/06\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "11\/06\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "12\/06\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "13\/06\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "14\/06\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "15\/06\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "16\/06\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "17\/06\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "18\/06\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "19\/06\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "20\/06\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "21\/06\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "22\/06\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "23\/06\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "24\/06\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "25\/06\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "26\/06\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "27\/06\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "28\/06\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "29\/06\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "30\/06\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "01\/07\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "02\/07\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "03\/07\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "04\/07\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "05\/07\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "06\/07\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "07\/07\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "08\/07\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "09\/07\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "10\/07\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "11\/07\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "12\/07\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "13\/07\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "14\/07\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "15\/07\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "16\/07\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "17\/07\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "18\/07\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "19\/07\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "20\/07\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "21\/07\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "22\/07\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "23\/07\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "24\/07\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "25\/07\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "26\/07\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "27\/07\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "28\/07\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "29\/07\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "30\/07\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "31\/07\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "01\/08\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "02\/08\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "03\/08\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "04\/08\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "05\/08\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "06\/08\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "07\/08\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "08\/08\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "09\/08\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "10\/08\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "11\/08\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "12\/08\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "13\/08\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "14\/08\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "15\/08\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "16\/08\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "17\/08\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "18\/08\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "19\/08\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "20\/08\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "21\/08\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "22\/08\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "23\/08\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "24\/08\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "25\/08\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "26\/08\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "27\/08\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "28\/08\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "29\/08\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "30\/08\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "31\/08\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "01\/09\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "02\/09\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "03\/09\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "04\/09\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "05\/09\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "06\/09\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "07\/09\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "08\/09\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "09\/09\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "10\/09\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "11\/09\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "12\/09\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "13\/09\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "14\/09\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "15\/09\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "16\/09\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "17\/09\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "18\/09\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "19\/09\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "20\/09\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "21\/09\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "22\/09\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "23\/09\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "24\/09\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "25\/09\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "26\/09\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "27\/09\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "28\/09\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "29\/09\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "30\/09\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "01\/10\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "02\/10\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "03\/10\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "04\/10\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "05\/10\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "06\/10\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "07\/10\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "08\/10\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "09\/10\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "10\/10\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "11\/10\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "12\/10\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "13\/10\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "14\/10\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "15\/10\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "16\/10\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "17\/10\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "18\/10\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "19\/10\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "20\/10\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "21\/10\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "22\/10\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "23\/10\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "24\/10\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "25\/10\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "26\/10\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "27\/10\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "28\/10\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "29\/10\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "30\/10\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "31\/10\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "01\/11\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "02\/11\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "03\/11\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "04\/11\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "05\/11\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "06\/11\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "07\/11\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "08\/11\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "09\/11\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "10\/11\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "11\/11\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "12\/11\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "13\/11\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "14\/11\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "15\/11\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "16\/11\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "17\/11\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "18\/11\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "19\/11\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "20\/11\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "21\/11\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "22\/11\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "23\/11\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "24\/11\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "25\/11\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "26\/11\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "27\/11\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "28\/11\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "29\/11\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "30\/11\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "01\/12\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "02\/12\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "03\/12\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "04\/12\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "05\/12\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "06\/12\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "07\/12\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "08\/12\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "09\/12\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "10\/12\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "11\/12\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "12\/12\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "13\/12\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "14\/12\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "15\/12\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "16\/12\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "17\/12\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "18\/12\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "19\/12\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "20\/12\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "21\/12\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "22\/12\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "23\/12\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "24\/12\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "25\/12\/2023",
-	 "dsemana": "segunda-feira"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "26\/12\/2023",
-	 "dsemana": "terça-feira"
-	},
-	{
-	 "quem": "Departamento Contabil",
-	 "quando": "27\/12\/2023",
-	 "dsemana": "quarta-feira"
-	},
-	{
-	 "quem": "Departamento Fiscal",
-	 "quando": "28\/12\/2023",
-	 "dsemana": "quinta-feira"
-	},
-	{
-	 "quem": "Demais Departamentos",
-	 "quando": "29\/12\/2023",
-	 "dsemana": "sexta-feira"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "30\/12\/2023",
-	 "dsemana": "sábado"
-	},
-	{
-	 "quem": "ninguem",
-	 "quando": "31\/12\/2023",
-	 "dsemana": "domingo"
-	},
-	{
-	 "quem": "Departamento Pessoal",
-	 "quando": "01\/01\/2024",
-	 "dsemana": "segunda-feira"
-	}
-   ]
-
+	{	"quem":	"ninguem"	,	"quando":	"01/01/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"02/01/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"03/01/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"04/01/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"05/01/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"06/01/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"07/01/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"08/01/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"09/01/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"10/01/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"11/01/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"12/01/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"13/01/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"14/01/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"15/01/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"16/01/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"17/01/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"18/01/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"19/01/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"20/01/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"21/01/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"22/01/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"23/01/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"24/01/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"25/01/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"26/01/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"27/01/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"28/01/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"29/01/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"30/01/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"31/01/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"01/02/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"02/02/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"03/02/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"04/02/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"05/02/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"06/02/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"07/02/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"08/02/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"09/02/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"10/02/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"11/02/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"12/02/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"13/02/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"14/02/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"15/02/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"16/02/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"17/02/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"18/02/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"19/02/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"20/02/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"21/02/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"22/02/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"23/02/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"24/02/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"25/02/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"26/02/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"27/02/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"28/02/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"01/03/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"02/03/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"03/03/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"04/03/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"05/03/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"06/03/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"07/03/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"08/03/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"09/03/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"10/03/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"11/03/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"12/03/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"13/03/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"14/03/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"15/03/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"16/03/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"17/03/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"18/03/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"19/03/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"20/03/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"21/03/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"22/03/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"23/03/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"24/03/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"25/03/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"26/03/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"27/03/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"28/03/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"29/03/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"30/03/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"31/03/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"01/04/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"02/04/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"03/04/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"04/04/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"05/04/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"06/04/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"07/04/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"08/04/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"09/04/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"10/04/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"11/04/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"12/04/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"13/04/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"14/04/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"15/04/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"16/04/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"17/04/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"18/04/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"19/04/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"20/04/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"21/04/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"22/04/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"23/04/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"24/04/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"25/04/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"26/04/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"27/04/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"28/04/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"29/04/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"30/04/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"ninguem"	,	"quando":	"01/05/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"02/05/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"03/05/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"04/05/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"05/05/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"06/05/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"07/05/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"08/05/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"09/05/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"10/05/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"11/05/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"12/05/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"13/05/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"14/05/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"15/05/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"16/05/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"17/05/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"18/05/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"19/05/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"20/05/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"21/05/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"22/05/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"23/05/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"24/05/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"25/05/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"26/05/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"27/05/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"28/05/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"29/05/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"30/05/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"31/05/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"01/06/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"02/06/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"03/06/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"04/06/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"05/06/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"06/06/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"07/06/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"08/06/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"09/06/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"10/06/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"11/06/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"12/06/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"13/06/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"14/06/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"15/06/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"16/06/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"17/06/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"18/06/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"19/06/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"20/06/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"21/06/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"22/06/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"23/06/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"24/06/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"25/06/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"26/06/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"27/06/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"28/06/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"29/06/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"30/06/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"01/07/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"02/07/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"03/07/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"04/07/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"05/07/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"06/07/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"07/07/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"08/07/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"09/07/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"10/07/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"11/07/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"12/07/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"13/07/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"14/07/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"15/07/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"16/07/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"17/07/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"18/07/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"19/07/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"20/07/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"21/07/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"22/07/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"23/07/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"24/07/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"25/07/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"26/07/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"27/07/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"28/07/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"29/07/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"30/07/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"31/07/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"01/08/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"02/08/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"03/08/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"04/08/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"05/08/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"06/08/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"07/08/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"08/08/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"09/08/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"10/08/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"11/08/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"12/08/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"13/08/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"14/08/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"15/08/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"16/08/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"17/08/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"18/08/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"19/08/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"20/08/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"21/08/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"22/08/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"23/08/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"24/08/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"25/08/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"26/08/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"27/08/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"28/08/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"29/08/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"30/08/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"31/08/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"01/09/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"02/09/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"03/09/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"04/09/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"05/09/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"06/09/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"07/09/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"08/09/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"09/09/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"10/09/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"11/09/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"12/09/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"13/09/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"14/09/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"15/09/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"16/09/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"17/09/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"18/09/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"19/09/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"20/09/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"21/09/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"22/09/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"23/09/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"24/09/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"25/09/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"26/09/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"27/09/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"28/09/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"29/09/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"30/09/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"01/10/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"02/10/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"03/10/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"04/10/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"05/10/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"06/10/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"07/10/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"08/10/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"09/10/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"10/10/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"11/10/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"12/10/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"13/10/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"14/10/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"15/10/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"16/10/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"17/10/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"18/10/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"19/10/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"20/10/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"21/10/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"22/10/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"23/10/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"24/10/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"25/10/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"26/10/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"27/10/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"28/10/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"29/10/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"30/10/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"31/10/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"01/11/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"02/11/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"03/11/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"04/11/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"05/11/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"06/11/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"07/11/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"08/11/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"09/11/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"10/11/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"11/11/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"12/11/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"13/11/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"14/11/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"15/11/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"16/11/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"17/11/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"18/11/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"19/11/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"20/11/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"21/11/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"22/11/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"23/11/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"24/11/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"25/11/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"26/11/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"27/11/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"28/11/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"29/11/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"30/11/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"01/12/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"02/12/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"03/12/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"04/12/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"05/12/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"06/12/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"07/12/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"08/12/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"09/12/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"10/12/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"11/12/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"12/12/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"13/12/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"14/12/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"15/12/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"16/12/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"17/12/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"18/12/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"19/12/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"20/12/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"21/12/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"22/12/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"23/12/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"24/12/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"25/12/2023"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"26/12/2023"	,	"dsemana":	"terça-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"27/12/2023"	,	"dsemana":	"quarta-feira"	},
+	{	"quem":	"Departamento Pessoal"	,	"quando":	"28/12/2023"	,	"dsemana":	"quinta-feira"	},
+	{	"quem":	"Departamento Contabil"	,	"quando":	"29/12/2023"	,	"dsemana":	"sexta-feira"	},
+	{	"quem":	"ninguem"	,	"quando":	"30/12/2023"	,	"dsemana":	"sábado"	},
+	{	"quem":	"ninguem"	,	"quando":	"31/12/2023"	,	"dsemana":	"domingo"	},
+	{	"quem":	"Departamento Fiscal"	,	"quando":	"01/01/2024"	,	"dsemana":	"segunda-feira"	},
+	{	"quem":	"Demais Departamentos"	,	"quando":	"02/01/2024"	,	"dsemana":	"terça-feira"	}
+	]
 function StatsCard(props: any) {
 	const { title, stat } = props;
 	const backgrounds = [
@@ -1864,7 +405,6 @@ function StatsCard(props: any) {
 						border={'1px solid'}
 						borderColor={borderColor}
 						rounded={'lg'}
-						
 						_after={{
 							content: '""',
 							position: 'absolute',
@@ -1945,7 +485,7 @@ function StatsCard(props: any) {
 	const [ atendeAmanha, setAtendeAmanha ] = useState<any>({})
 	 
 	async function regraPraAtender() {
-		function adicionaZero(numero:number|string){
+		function adicionaZero(numero:any){
 			if (numero <= 9) 
 				return "0" + numero;
 			else
